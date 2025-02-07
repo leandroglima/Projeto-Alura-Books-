@@ -1,0 +1,40 @@
+@import url("../styles/hearder.css");
+@import url("../styles/banner.css");
+@import url("../styles/carrossel.css");
+@import url("../styles/topicos.css");
+@import url("../styles/contato.css");
+@import url("../styles/rodape.css");
+
+
+:root {
+    --cor-fundo: #607274;
+    --cor-cabecalho: #FAF7F0;
+    --cor-banner: #607274;
+    --cor-banner-texto: #FAF7F0;
+    --cor-faixa-carrossel: #FAF7F0;
+    --cor-titulo-item-carrossel: #607274;
+    --cor-titulo-carr: #607274;
+    --cor-titulo-livro: #B2A59B;
+    --cor-lista-item: #607274;
+    --cor-topico-link: #B2A59B;
+    --cor-opcoes: #0e0d0d;
+    --cor-rodape_link: #474646;
+    --cor-rodape-descricao: #858585;
+    --cor-titulo-rodape: #000;
+
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
